@@ -1,0 +1,248 @@
+@charset "UTF-8";
+* {
+    outline: none!important;
+}
+
+/*---------------------------------
+  基本設定
+---------------------------------*/
+
+html {
+  border: 20px solid #fef7ec;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  letter-spacing: 0.1em;
+  color: #333;
+}
+
+
+
+/*---------------------------------
+  ヘッダー
+---------------------------------*/
+
+header {
+  padding: 50px;
+}
+
+.heaer-inner {
+  text-align: center;
+  width: 100%;
+}
+
+header img {
+  width: 300px;
+}
+
+header p {
+  padding-top: 30px;
+}
+
+/* 英語表記 */
+.h2-eng {
+  font-size: 25px;
+  color: #9c9c9c;
+}
+
+.p-eng {
+  color: #9c9c9c;
+  padding-top: 0px;
+}
+
+
+.login-inner {
+  text-align: center;
+}
+
+
+
+.login-inner a {
+
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  width: 250px;
+  margin: 20px auto;
+  font-size: 16px;
+
+}
+
+.login-inner a span {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+
+.login-btn {
+  border: 1px solid #ffba4c;
+  color: #fff;
+  background-color: #ffba4c;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+
+.jump-appform {
+  border: 1px solid #ff9d00;
+  color: #ff9d00;
+  background-color: #fef7ec;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.login-btn:hover, .jump-appform:hover {
+  color: #ff9d00;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ff9d00;
+}
+
+/*---------------------------------
+  本文
+---------------------------------*/
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px 30px;
+}
+
+main p {
+  padding-top: 30px;
+}
+
+/* 会員登録の流れ */
+.flow {
+  text-align: center;
+  border: 3px solid #ff9d00;
+  background-color: #fef7ec;
+  border-radius: 5px;
+  padding: 30px 10px;
+}
+
+
+.app-flow {
+  text-align: left;
+  padding-top: 30px;
+
+}
+
+.app-flow li {
+  line-height: 2em;
+}
+
+
+/* 会員登録へ */
+
+.jump {
+  text-align: center;
+}
+
+.jump .login-btn {
+  display: block;
+  padding: 10px;
+  width: 250px;
+  margin: 20px auto;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.jump .login-btn span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+
+/*---------------------------------
+  フッター
+---------------------------------*/
+footer {
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------
+  タブレット向け
+---------------------------------*/
+
+@media screen and (max-width:500px ) {
+
+
+/*---------------------------------
+  ヘッダー
+---------------------------------*/
+
+header {
+  padding: 50px 30px;
+}
+
+
+header img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.login-inner a {
+  width: 80%;
+}
+
+
+
+
+/*---------------------------------
+  本文
+---------------------------------*/
+
+/* 会員登録の流れ */
+
+
+.app-flow ol {
+  padding-left: 20px;
+
+}
+
+
+
+/* 会員登録へ */
+
+
+
+.jump .login-btn {
+  width: 80%;
+
+}
+
+
+
+
+
+
+
+
+
+}
